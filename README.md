@@ -78,7 +78,7 @@ This shareable config contains the following:
   ],
   "rules": {
     "order/properties-order": [],
-    "plugin/rational-order": [true, {
+    "plugin/vertic-order": [true, {
       "border-in-box-model": false,
       "empty-line-between-groups": false,
     }]
@@ -102,17 +102,6 @@ The default value is `false` (**border** property belongs to the **visual sectio
 #### empty-line-between-groups
 
 If `true` adds an empty line between groups. The default value is `false`.
-
-## FAQ
-
-<details>
-  <summary>Why should I use the rational order and group and sort CSS properties by type instead of alphabetical order?</summary>
-
-  The pros and cons of both ways in detail:
-
-* [Happy Potter and the Order of CSS](https://dev.to/thekashey/happy-potter-and-the-order-of-css-5ec)
-* [“Outside In” — Ordering CSS Properties by Importance](https://webdesign.tutsplus.com/articles/outside-in-ordering-css-properties-by-importance--cms-21685)
-</details>
 
 ## Credits
 
