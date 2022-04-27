@@ -14,7 +14,7 @@ module.exports = ({
         ignoreProperties: specialProps,
       },
     ],
-    'plugin/rational-order': [
+    'plugin/vertic-order': [
       true,
       {
         'border-in-box-model': borderInBoxModel,
