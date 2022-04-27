@@ -74,7 +74,7 @@ This shareable config contains the following:
 {
   "plugins": [
     "stylelint-order",
-    "stylelint-config-vertic-order/plugin"
+    "@verticlabs/stylelint-order-config/plugin"
   ],
   "rules": {
     "order/properties-order": [],
