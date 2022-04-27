@@ -20,7 +20,7 @@ const getPluginOptions = (code, rules) => ({
   configBasedir: __dirname,
 });
 
-describe('stylelint-config-rational-order default config', () => {
+describe('stylelint-config-vertic-order default config', () => {
   const wrong = `
     a {
       width: auto;
@@ -73,7 +73,7 @@ describe('stylelint-config-rational-order default config', () => {
     }));
 });
 
-describe('stylelint-config-rational-order/plugin', () => {
+describe('stylelint-config-vertic-order/plugin', () => {
   describe('correct order with enabled plugin', () => {
     it('with default values (border in visual section and no empty lines between groups)', () => {
       const rules = {
