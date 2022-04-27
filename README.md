@@ -1,9 +1,4 @@
-# stylelint-config-rational-order
-
-[![NPM version][version-img]][npm-url]
-[![NPM downloads][downloads-img]][npm-url]
-[![Build status][ci-img]][ci-url]
-[![License][l-img]][l-url]
+# stylelint-config-vertic-order
 
 Stylelint config that sorts related property declarations by grouping together following the order:
 
@@ -57,9 +52,9 @@ Stylelint config that sorts related property declarations by grouping together f
 1.  Add `stylelint`, `stylelint-order` and this package to your project:
 
 ```bash
-npm install --save-dev stylelint stylelint-order stylelint-config-rational-order
+npm install --save-dev stylelint stylelint-order stylelint-config-vertic-order
 # or, if you prefer yarn over npm:
-yarn add --dev stylelint stylelint-order stylelint-config-rational-order
+yarn add --dev stylelint stylelint-order stylelint-config-vertic-order
 ```
 
 2.  Add this package to the end of your extends array inside Stylelint
@@ -69,7 +64,7 @@ yarn add --dev stylelint stylelint-order stylelint-config-rational-order
 {
   "extends": [
     // "stylelint-config-standard",
-    "stylelint-config-rational-order"
+    "stylelint-config-vertic-order"
   ]
 }
 ```
@@ -79,7 +74,7 @@ This shareable config contains the following:
 {
   "plugins": [
     "stylelint-order",
-    "stylelint-config-rational-order/plugin"
+    "stylelint-config-vertic-order/plugin"
   ],
   "rules": {
     "order/properties-order": [],
@@ -91,7 +86,7 @@ This shareable config contains the following:
 }
 ```
 
-Since it adds `stylelint-order` and `stylelint-config-rational-order` to plugins and also adds required rules, you don't have to do this yourself when extending this config.
+Since it adds `stylelint-order` and `stylelint-config-vertic-order` to plugins and also adds required rules, you don't have to do this yourself when extending this config.
 
 
 ## Optional options / rules
@@ -123,12 +118,5 @@ If `true` adds an empty line between groups. The default value is `false`.
 
 * [Code Guide by @mdo](http://codeguide.co/)
 * [Code Guide by HTML Academy](https://github.com/htmlacademy/codeguide)
+* [Fork stylelint-config-rational-order by @constverum](https://github.com/constverum/stylelint-config-rational-order)
 
-
-[npm-url]: https://www.npmjs.com/package/stylelint-config-rational-order
-[downloads-img]: https://img.shields.io/npm/dt/stylelint-config-rational-order.svg?style=flat-square
-[version-img]: https://img.shields.io/npm/v/stylelint-config-rational-order.svg?style=flat-square
-[ci-url]: https://travis-ci.org/constverum/stylelint-config-rational-order
-[ci-img]: https://img.shields.io/travis/constverum/stylelint-config-rational-order.svg?style=flat-square
-[l-url]: https://www.npmjs.com/package/stylelint-config-rational-order
-[l-img]: https://img.shields.io/npm/l/stylelint-config-rational-order.svg?style=flat-square
